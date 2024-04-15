@@ -133,11 +133,18 @@ body {
   }
 
   .imagem {
-    width: 50%; /* Cada imagem ocupa metade da largura da tela */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr)); /* Cada imagem ocupa metade da tela */
+    grid-gap: 10px; /* Espaçamento entre as imagens */
+  }
+
+  .imagem img {
+    width: 50%; /* A imagem ocupa todo o espaço disponível na sua célula da grade */
+    height: auto; /* Altura ajustável para manter a proporção */
   }
 
   .container {
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
   }
 
