@@ -24,12 +24,11 @@ body {
   }
 
   .deuses-coluna {
-    background-color: #f388e1; /* Adicione a cor de fundo desejada */
-    padding: 10px; /* Adicione preenchimento para espaçamento interno */
-    margin-bottom: 20px; /* Adicione margem na parte inferior para separar as colunas */
+    background-color: #f388e1; 
+    padding: 10px; 
+    margin-bottom: 20px; 
   }
   
-
   .titulo{
     text-align:center;
     color: white
@@ -121,12 +120,12 @@ body {
   }
 
   .conteudo-lateral {
-    position: fixed; /* Posicionamento absoluto */
+    position: fixed; 
     bottom:0;
-    right: 0; /* Alinhar à direita da tela */
-    width: 30%; /* Definir a largura do conteúdo lateral */
-    padding: 20px; /* Adicionar preenchimento para espaçamento interno */
-    background-color: #f388e1; /* Cor de fundo apenas para visualização */
+    right: 0; 
+    width: 30%; 
+    padding: 20px;
+    background-color: #f388e1; 
     text-align:left;
     font-family: 'Times New Roman', Times, serif;
     color: white;
@@ -134,16 +133,17 @@ body {
 
   .imagem {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr)); /* Cada imagem ocupa metade da tela */
-    grid-gap: 10px; /* Espaçamento entre as imagens */
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr)); 
+    grid-gap: 10px;
+    justify-content: center;
   }
 
   .imagem img {
-    width: 50%; /* A imagem ocupa todo o espaço disponível na sua célula da grade */
-    height: auto; /* Altura ajustável para manter a proporção */
+    width: 50%;
+    height: auto;
   }
 
-  .container {
+  .imagens-container {
     display: grid;
     flex-wrap: wrap;
   }
