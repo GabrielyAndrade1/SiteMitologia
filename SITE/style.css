@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    margin:10px;
+  }
+
+  header {
+    background-color: #f388e1;
+    padding-top :10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 10px
+  }
+
+  .imagem-centralizada {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .deuses-container {
+    column-count: 3;
+    column-gap: 10px; 
+  }
+
+  .deuses-coluna {
+    background-color: #f388e1; /* Adicione a cor de fundo desejada */
+    padding: 10px; /* Adicione preenchimento para espaçamento interno */
+    margin-bottom: 20px; /* Adicione margem na parte inferior para separar as colunas */
+  }
+  
+
+  .titulo{
+    text-align:center;
+    color: white
+  }
+  .subtitulo{
+    text-align:right;
+    color: white;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration:none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .paragrafos {
+    display: flex;
+  }
+  
+  .paragrafos .paragrafo2 {
+    padding-right: 10px;
+    flex: 1;
+    background-color:#eeabe3;
+    margin-right: white;
+  }
+
+  .paragrafos .paragrafo1 {
+    padding-right: 10px;
+    flex: 1;
+    background-color:#eeabe3;
+    margin-right: 10px;
+  }  
+
+  section {
+    margin-bottom: 40px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  h2 {
+    color: #2c3e50;
+  }
+  
+  footer {
+    background-color:#f388e1;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .listas {
+    display: flex;
+    gap: 20px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul.borda-vermelha {
+    border: 5px dashed red;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-right: 150px;
+    padding-left: 150px;
+    margin: 10px;
+  }
+  
+  ul.borda-azul {
+    border: 5px solid blue;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-right: 150px;
+    padding-left: 150px;
+    margin: 10px;
+  }
+
+  .conteudo-lateral {
+    position: fixed; /* Posicionamento absoluto */
+    bottom:0;
+    right: 0; /* Alinhar à direita da tela */
+    width: 30%; /* Definir a largura do conteúdo lateral */
+    padding: 20px; /* Adicionar preenchimento para espaçamento interno */
+    background-color: #f388e1; /* Cor de fundo apenas para visualização */
+    text-align:left;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+  }
+
+  .imagem {
+    width: 50%; /* Cada imagem ocupa metade da largura da tela */
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .rodape{
+    border: 5px dashed green;
+    text-align:center;
+  }
+  
